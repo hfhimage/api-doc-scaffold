@@ -1,11 +1,12 @@
 # API Documentation
-===================
 
 ### 1. 简介
 
-使用 OpenAPI `V2` 规范编写 API 文档
+使用 swagger 来编写文档的项目脚手架
 
-按照 `Swagger OpenAPI v3` 官方建议进行文档切分和文件目录组织
+按 OpenAPI `V2` 规范编写 API 文档
+
+按 `Swagger OpenAPI v3` 官方建议进行文档切分和文件目录组织
 
 但目前 swagger 相关工具对 v3 的支持还不是很好，因此目录结构按照 OpenAPI v3 来组织，但编译还是使用 v2
 
@@ -19,7 +20,7 @@ $ npm install -g gulp
 # 编译文档
 $ gulp
 
-会生成 build/api.json 文件
+编译成功后，生成 build/api.json 文件
 
 # 本地运行
 docker pull swaggerapi/swagger-ui
