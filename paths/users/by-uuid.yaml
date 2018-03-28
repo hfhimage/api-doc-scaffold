@@ -1,0 +1,18 @@
+get:
+  summary: 根据 uuid 获取用户信息
+  tags:
+    - users
+  parameters:
+    - name: uuid
+      in: path
+      description: 用户 uuid
+      required: true
+      type: string
+  responses:
+    '200':
+      description: 用户信息
+      schema:
+          type: object
+          properties:
+            address:
+              $ref: '../../components/schemes/UserVO.yaml'

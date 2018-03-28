@@ -1,0 +1,6 @@
+name: page
+in: query
+description: 页码
+type: integer
+default: 1
+minimum: 1

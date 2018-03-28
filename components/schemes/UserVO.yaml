@@ -1,0 +1,12 @@
+type: object
+properties:
+  uuid:
+    type: string
+  name:
+    type: string
+  email:
+    type: string
+  mobile:
+    type: string
+  avatar:
+    type: string

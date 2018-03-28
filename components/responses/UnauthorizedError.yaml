@@ -1,0 +1,4 @@
+description: 鉴权失败
+examples:
+  application/json:
+    $ref: '../examples/UnauthorizedError.json'

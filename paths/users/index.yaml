@@ -1,0 +1,24 @@
+post:
+  summary: 创建新用户
+  tags:
+    - users
+  parameters:
+    - name: user
+      in: body
+      description: 用户信息
+      required: true
+      schema:
+        type: object
+        properties:
+          user:
+            $ref: '../../components/schemes/UserVO.yaml'
+            required:
+              - mobile
+  responses:
+    '201':
+      description: 返回成功创建的用户信息
+      schema:
+        type: object
+        properties:
+          address:
+            $ref: '../../components/schemes/UserVO.yaml'

@@ -1,0 +1,4 @@
+type: oauth2
+flow: accessCode
+authorizationUrl: /devices/{uuid}/auth
+tokenUrl: /devices/{uuid}/token

@@ -1,0 +1,7 @@
+{
+    error: {
+        type: "AUTHORIZATION_FAIL",
+        reason: "authorization fail",
+        message: "鉴权失败"
+    }
+}
